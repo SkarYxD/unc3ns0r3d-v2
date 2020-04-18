@@ -165,8 +165,8 @@ class Cl_User
 				$to = $email;
 				$subject = "Nueva solicitud de contraseña";
 				$txt = "Su nueva contraseña ".$password;
-				$headers = "From: dantexml22@gmail.com" . "\r\n" .
-						"CC: dantexml22@gmail.com";
+				$headers = "From: joaqhoc@gmail.com" . "\r\n" .
+						"CC: joaqhoc@gmail.com";
 					
 				mail($to,$subject,$txt,$headers);
 				return true;
